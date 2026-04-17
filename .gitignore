@@ -1,0 +1,29 @@
+# common
+.DS_Store
+*.log
+
+# node
+node_modules
+.next
+dist
+
+# local env/secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.p12
+*.pfx
+
+# bot runtime files
+apps/driver-bot-sandbox/config/.env
+apps/driver-bot-sandbox/logs/
+apps/driver-bot-sandbox/data/
+
+# app runtime files
+apps/youpiter-bi-sandbox/.security-log.json
+apps/youpiter-bi-sandbox/.server-audit-log.json
+apps/youpiter-bi-sandbox/.integration-settings.json
+apps/youpiter-bi-sandbox/*service-account*.json
+

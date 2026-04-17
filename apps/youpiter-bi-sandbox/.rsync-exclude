@@ -1,0 +1,7 @@
+.git
+node_modules
+.next
+*.json
+.env.local
+.env
+.env.production.local

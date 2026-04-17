@@ -1,0 +1,76 @@
+{
+  "slug": "driver_hiring_default",
+  "title": "Найм водителей в СПб",
+  "welcome_messages": [
+    {
+      "delay_seconds": 0,
+      "text": "Здравствуйте! Вы в Youpiter Taxi 🚕"
+    },
+    {
+      "delay_seconds": 2,
+      "text": "Подберем авто и формат работы под ваш запрос. Анкета займет 1-2 минуты."
+    },
+    {
+      "delay_seconds": 4,
+      "text": "Доход водителя: от 6500₽ за смену (в зависимости от графика и выручки)."
+    }
+  ],
+  "questions": [
+    {
+      "key": "city",
+      "text": "В каком районе Санкт-Петербурга вам удобнее забирать авто?",
+      "answer_type": "text"
+    },
+    {
+      "key": "work_scheme",
+      "text": "Какой формат рассматриваете в первую очередь?",
+      "answer_type": "single_choice",
+      "options": [
+        {"key": "shift", "text": "Смена: 0₽ аренды, только % с выручки", "order": 1},
+        {"key": "rent", "text": "Аренда: от 2500₽, авто на домашнем хранении", "order": 2},
+        {"key": "raskat", "text": "Раскат: аренда с правом выкупа от 3400₽", "order": 3}
+      ]
+    },
+    {
+      "key": "license_category",
+      "text": "Какая категория прав у вас есть?",
+      "answer_type": "single_choice",
+      "options": [
+        {"key": "b", "text": "Категория B", "order": 1},
+        {"key": "other", "text": "Другая категория", "order": 2}
+      ]
+    },
+    {
+      "key": "experience",
+      "text": "Сколько у вас стажа вождения?",
+      "answer_type": "single_choice",
+      "options": [
+        {"key": "3_5", "text": "3-5 лет", "order": 1},
+        {"key": "5_plus", "text": "Более 5 лет", "order": 2},
+        {"key": "lt_3", "text": "Менее 3 лет", "order": 3}
+      ]
+    },
+    {
+      "key": "preferred_schedule",
+      "text": "Какой график вам подходит? (можно выбрать несколько)",
+      "answer_type": "multi_choice",
+      "options": [
+        {"key": "day", "text": "Дневные смены", "order": 1},
+        {"key": "night", "text": "Ночные смены", "order": 2},
+        {"key": "daily", "text": "Суточные смены", "order": 3},
+        {"key": "flex", "text": "Гибкий график", "order": 4}
+      ]
+    },
+    {
+      "key": "comment",
+      "text": "Есть пожелания по авто, графику или доходу?",
+      "answer_type": "text"
+    }
+  ],
+  "contact_form": {
+    "ask_name_text": "Как к вам обращаться? (имя обязательно)",
+    "ask_phone_text": "Оставьте ваш телефон (обязательно):",
+    "ask_email_text": "Email для связи (необязательно, можно написать 'пропустить'):",
+    "after_submit_text": "Спасибо! Заявка отправлена с пометкой Бот ТГ ✅ Мы свяжемся с вами до 15 минут."
+  }
+}

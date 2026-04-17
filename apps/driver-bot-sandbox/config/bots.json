@@ -1,0 +1,13 @@
+{
+  "bots": [
+    {
+      "slug": "youpiter_quiz_bot",
+      "token": "0000000000:replace_me",
+      "display_name": "Youpiter Driver Hiring",
+      "username": "Youpiter_quiz_bot",
+      "short_description": "Работа в такси на авто компании в СПб: анкета за 2 минуты.",
+      "full_description": "🚕 Youpiter Taxi — набор водителей в Санкт-Петербурге.\n\nПодберем удобный автопарк и формат работы: смена, аренда или раскат (с правом выкупа).\nЗаполните короткую анкету, и менеджер свяжется с вами в течение 15 минут.",
+      "scenario_slug": "driver_hiring_default"
+    }
+  ]
+}

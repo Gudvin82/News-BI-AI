@@ -1,0 +1,17 @@
+{
+  "period": "2026-04-01..2026-04-30",
+  "source": "mock",
+  "metrics": {
+    "responses_total": 324,
+    "relevant": 128,
+    "interviews": 61,
+    "first_shift": 27,
+    "conversion_to_first_shift_pct": 8.33
+  },
+  "by_manager": [
+    { "name": "Менеджер 1", "responses": 142, "first_shift": 12 },
+    { "name": "Менеджер 2", "responses": 98, "first_shift": 9 },
+    { "name": "Менеджер 3", "responses": 84, "first_shift": 6 }
+  ]
+}
+

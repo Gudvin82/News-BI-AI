@@ -1,0 +1,12 @@
+{
+  "period": "2026-04-01..2026-04-30",
+  "source": "mock",
+  "campaigns": 6,
+  "total_cost": 286540,
+  "clicks": 12493,
+  "conversions": 381,
+  "cpc": 22.94,
+  "cpa": 751.0,
+  "romi_pct": 138
+}
+
